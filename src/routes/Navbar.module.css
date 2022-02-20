@@ -1,0 +1,34 @@
+.Navbar_main {
+	display: flex;
+	align-items: center;
+	background-color: lightblue;
+	padding: 30px;
+	position: fixed;
+	width: 100%;
+}
+.navbarImg {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 40px;
+    padding-right: 30px;
+}
+
+.Navbar_main > div {
+	flex-grow: 1;
+}
+
+.Navbar_div {
+	margin-left: 10px;
+	display: flex;
+	gap: 20px;
+}
+
+.Navbar_div > a {
+	color: steelblue;
+	font-weight: bold;
+	text-decoration: wavy;
+	letter-spacing: 5px;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 22px;
+}

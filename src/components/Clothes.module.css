@@ -1,0 +1,44 @@
+.clothImg {
+    height: 300px;
+    width: 250px;
+    padding: 30px;
+}
+
+.clothMain {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    margin: auto;
+    grid-gap: 30px;
+    text-align: center;
+}
+
+.paintMain {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    margin: auto;
+    grid-gap: 30px;
+    text-align: center;
+}
+.clothMain > div {
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.paintMain > div {
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+
+}
+.heading {
+    color :	darkcyan;
+    font-size : 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+.price {
+    color:darkslategray;
+    padding-bottom: 20px;
+}
